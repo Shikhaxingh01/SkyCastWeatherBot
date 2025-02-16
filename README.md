@@ -27,7 +27,7 @@ SkyCastWeatherBot is a Telegram bot built using NestJS that provides daily weath
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/SkyCastWeatherBot.git
+git clone https://github.com/Shikhaxingh01/SkyCastWeatherBot.git
 cd SkyCastWeatherBot
 ```
 
