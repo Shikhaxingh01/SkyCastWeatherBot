@@ -1,0 +1,71 @@
+/* UserList.css */
+
+.user-list-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .action-btn {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .subscribe-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .unsubscribe-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Container, Typography, Button, Paper, Divider } from "@mui/material";
+import { Container, Typography, Button, Paper, Divider, Stack } from "@mui/material";
 
 import LogoutButton from "./Logout";
 import ManageBotSettings from "./ManageBot";
 import ManageUsers from "./ManageUsers";
+import UserList from "./UserList"; // Importing the UserList component
 
 const dashboardStyles = {
   background: "#f2f2f2",
@@ -42,7 +43,7 @@ const Dashboard = () => {
         ) : (
           <>
             <Typography variant="h3" gutterBottom>
-              Welcome to Weather Bot Admin Pane
+              Welcome to Weather Bot Admin Panel
             </Typography>
           </>
         )}
@@ -60,13 +61,21 @@ const Dashboard = () => {
       </div>
 
       <Divider variant="middle" />
-      
 
       <div style={contentStyles}>
         <Typography variant="h5" gutterBottom>
-          Handle and Manage Bot Users
+          Manage Subscribers
         </Typography>
         <ManageUsers />
+      </div>
+
+      <Divider variant="middle" />
+
+      <div style={contentStyles}>
+        <Typography variant="h5" gutterBottom>
+          User List
+        </Typography>
+        <UserList /> {/* Rendering the UserList component */}
       </div>
     </div>
   );
