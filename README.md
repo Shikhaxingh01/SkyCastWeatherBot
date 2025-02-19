@@ -66,6 +66,8 @@ You can deploy the bot and admin panel using any cloud provider like AWS, Vercel
 This project is licensed under the MIT License.
 <img src="images/b.png"><br><br>
 <img src="images/bd.png" ><br><br>
+<img src="images/um.png" ><br><br>
+<img src="images/n.png" ><br><br>
 <img src="images/bdb.png" ><br><br>
 
 <img src="images/bt.png" ><br><br>
