@@ -62,8 +62,7 @@ You can deploy the bot and admin panel using any cloud provider like AWS, Vercel
 ## 👨‍💻 Contributors
 - **Shikha Singh** - Developer
 
-## 📜 License
-This project is licensed under the MIT License.
+
 <img src="images/b.png"><br><br>
 <img src="images/bd.png" ><br><br>
 <img src="images/um.png" ><br><br>
